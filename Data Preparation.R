@@ -58,16 +58,7 @@ ggplot(grain,
 
 
 
-#Histogram for Hectares
-qplot(grain$Hectares,
-      geom="histogram",
-      binwidth = 5,  
-      main = "Histogram for Hectares", 
-      xlab = "Hectares",  
-      fill=I("blue"), 
-      col=I("red"), 
-      alpha=I(.2))
-      
+
 
 
 
